@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>네트로닉스웹개발_5월_김우중</title>
+    <link rel="stylesheet" href="css" />
+  </head>
+  <body>
+    <div class="outLine">
+    <div class="mainContainer">
+    <div class="titleContainer">
+          <h1 style="color: skyblue">네트로닉스 회원가입</h1>
+        </div>
+        <div class="idpwContainer">
+          <input
+            class="basicText"
+            id="inputEmail"
+            type="text"
+            placeholder="이메일을 입력하세요"
+          />
+          <input
+            class="basicText"
+            id="inputName"
+            type="text"
+            placeholder="이름을 입력하세요"
+          />
+          <input
+            class="basicText"
+            id="inputPassword1"
+            type="password"
+            placeholder="비밀번호를 입력하세요"
+          />
+          <input
+            class="basicText"
+            id="inputPassword2"
+            type="password"
+            placeholder="비밀번호를 확인하세요"
+          />
+        </div>
+        <div class="phonenumberContainer">
+          <input class="basicNumber" id="inputNumber1" type="text" />
+          <span>-</span>
+          <input class="basicNumber" id="inputNumber2" type="text" />
+          <span>-</span>
+          <input class="basicNumber" id="inputNumber1" type="text" />
+        </div>
+        <div class="pnVerificationContainer">
+          <div class="vercodeText">000000</div>
+          <input
+            type="button"
+            class="basicButton"
+            value="인증번호 발송"
+            disabled
+          />
+        </div>
+        <div class="pnVerificationContainer"></div>
+          </div>
+          <div class="vercodeText">3:00</div>
+          <input
+            type="button"
+            class="basicButton"
+            value="인증번호 확인"
+            disabled
+          />
+        </div>
+        <select class="regionOption">
+          <option disabled selected>지역을 선택하세요</option>
+          <option>서울</option>
+          <option>인천</option>
+          <option>경기</option>
+          <option>부산</option>
+          <option>대전</option>
+
+          
+        </select>
+        <div class="genderContainer">
+          <span class="genderRadio">
+            <span>
+              <input class="basicRadio" type="radio" name="genderInput" />
+              남자
+            </span>
+          </span>
+          <span class="genderRadio">
+            <span>
+              <input class="basicRadio" type="radio" name="genderInput" />
+              여자
+            </span>
+          </span>
+        </div>
+        <input class="submitButton" type="button" value="가입하기" />
+      </div>
+    </div>
+  </body>
+</html>
