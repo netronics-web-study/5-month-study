@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="cho2.css" />
+  </head>
+
+  <body>
+    <div class="background">
+      <div class="wrapper">
+        <div class="title">
+          <hi>네트로닉스 회원가입</hi>
+        </div>
+        <div class="privacy">
+          <input
+            type="email"
+            class="cs"
+            placeholder=" 이메일을 입력해 주세요."
+          />
+          <br /><br />
+
+          <input type="text" class="cs" placeholder=" 이름을 입력해 주세요." />
+          <br /><br />
+
+          <input
+            type="password"
+            class="cs"
+            placeholder=" 비밀번호를 입력해 주세요."
+          />
+          <br /><br />
+
+          <input
+            type="password"
+            class="cs"
+            placeholder=" 비밀번호를 다시 입력해 주세요."
+          />
+        </div>
+        <div class="phone_number">
+          <input class="ns" type="tel" maxlength="3" autofocus />
+          <span>&nbsp;&nbsp;_&nbsp;&nbsp;</span>
+          <input class="ns" type="tel" maxlength="4" autofocus />
+          <span>&nbsp;&nbsp;_&nbsp;&nbsp;</span>
+          <input class="ns" type="tel" maxlength="4" autofocus />
+        </div>
+        <div class="enter">
+          <input id="ze" type="text" value="000000" disabled />
+          &nbsp;&nbsp;&nbsp;
+          <input
+            id="n1"
+            type="button"
+            value="인증번호 전송"
+            onclick="alert('인증번호가 전송되었습니다.')"
+          />
+        </div>
+        <div class="enter">
+          <input id="ze" type="text" value="3:00" disabled />
+          &nbsp;&nbsp;&nbsp;
+          <input
+            id="n2"
+            type="button"
+            value="인증 확인"
+            onclick="alert('인증이 완료되었습니다.')"
+          />
+        </div>
+        <div class="lotate">
+          <select name="지역" class="sl">
+            <option value="">지역을 선택하세요.</option>
+            <option value="">서울</option>
+            <option value="">인천</option>
+            <option value="">경기</option>
+          </select>
+        </div>
+        <div class="gender">
+          <input type="radio" name="gender" value="여성" />
+          여성&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" name="gender" value="남성" />
+          남성
+        </div>
+        <div class="line" disabled></div>
+        <div class="end">
+          <input type="text" id="sign" value="가입하기" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

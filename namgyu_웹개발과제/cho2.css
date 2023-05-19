@@ -1,0 +1,121 @@
+* .background {
+  width: 540px;
+  height: 960px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #aacdff;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 45px rgba(0, 104, 255, 0.25);
+  border-radius: 20px;
+}
+.wrapper {
+  margin: 60px 0px;
+  width: 380px;
+  height: 820px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.title {
+  height: 47px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+
+  color: #0068ff;
+}
+.privacy {
+  width: 100%;
+}
+.cs {
+  color: gray;
+  width: 380px;
+  height: 60px;
+  font-size: 15px;
+  border-color: #0068ff;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+}
+.ns {
+  width: 102px;
+  height: 40px;
+  border-style: solid;
+  border-radius: 10px;
+  color: black;
+  border-width: 1px;
+  border-color: lightgray;
+}
+#ze {
+  color: blue;
+  background-color: white;
+  width: 215px;
+  text-align: end;
+  font-size: 17px;
+  border-style: none;
+}
+#n1 {
+  color: lightgray;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: lightgray;
+  padding: 10px 20px;
+  border-width: 1px;
+}
+#n2 {
+  color: lightgray;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: lightgray;
+  padding: 10px 32px;
+  border-width: 1px;
+}
+.sl {
+  color: gray;
+  width: 380px;
+  height: 60px;
+  font-size: 15px;
+  border-color: lightgray;
+  border-style: solid;
+  border-radius: 10px;
+}
+.line {
+  width: 380px;
+  height: 20px;
+  border-style: solid;
+  background-color: white;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+  border-bottom-color: lightgray;
+}
+#sign {
+  color: #0068ff;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #0068ff;
+  border-width: 1px;
+  height: 100px;
+  padding-left: 134px;
+  font-size: 20px;
+}
+.gender {
+  display: flex;
+  justify-content: center;
+}
+.phone_number {
+  display: flex;
+  justify-content: center;
+}
+.enter {
+  display: flex;
+  justify-content: end;
+}
+.end {
+  display: flex;
+  justify-content: center;
+}
