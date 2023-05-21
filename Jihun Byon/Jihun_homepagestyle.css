@@ -1,0 +1,89 @@
+.outline{
+    display flex;
+    width: 540px;
+    height: 900px;
+
+    box-shadow: skyblue 0px 2px 5px 7px;
+    border-style: solid;
+    border-color: skyblue;
+    border-width: 2px;
+    border-radius: 30px;
+    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainbox {
+    display: flex;
+    width: 540px;
+    height: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .phonenumberContainer {
+    display: flex;
+    width: 420px;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .bluebox {
+    color: gray;
+  width: 380px;
+  height: 60px;
+  font-size: 15px;
+  border-color: #0068ff;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  }
+
+  .phone {
+    width: 102px;
+    height: 40px;
+    border-style: solid;
+    border-radius: 10px;
+    color: black;
+    border-width: 1px;
+    border-color: lightgray;
+  }
+
+  .graybox {
+    color: gray;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+  .signin {
+    color: gray;
+  width: 380px;
+  height: 60px;
+  font-size: 15px;
+  border-color: #0068ff;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  justify-content: center;
+  }
+
+
+.title {
+  height: 47px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 47px;
+
+  color: #0068ff;
+}
+
+.genderbox{
+  display: flex;
+  justify-content: center;
+}
