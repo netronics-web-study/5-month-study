@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+.outLine {
+  display: flex;
+  width: 600px;
+  height: auto;
+
+  box-shadow: 2px 3px 5px 0px;
+  border-style: solid;
+  border-color: skyblue;
+  border-width: 2px;
+  border-radius: 30px;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContainer {
+  display: flex;
+  width: 420px;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleContainer {
+  display: flex;
+  width: 420px;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 20px;
+  align-content: flex-start;
+}
+
+.idpwContainer {
+  display: flex;
+  width: 420px;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phonenumberContainer {
+  display: flex;
+  width: 420px;
+  height: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pnVerificationContainer {
+  display: flex;
+  width: 420px;
+  height: auto;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.genderContainer {
+  display: flex;
+  width: 420px;
+  height: auto;
+
+  margin: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.genderRadio {
+  display: flex;
+  width: 100px;
+  height: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+input:focus {
+  outline-width: 2px;
+  outline-color: deepskyblue;
+}
+
+.basicText {
+  width: 400px;
+  height: 50px;
+
+  margin: 10px;
+  padding: 0px 10px;
+
+  border-style: solid;
+  border-color: skyblue;
+  border-radius: 8px;
+  border-width: 1px;
+
+  font-size: 15px;
+}
+
+.basicNumber {
+  width: 110px;
+  height: 40px;
+
+  margin: 10px;
+
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 8px;
+  border-width: 1px;
+
+  font-size: 20px;
+}
+
+.basicButton {
+  width: 130px;
+  height: 40px;
+
+  margin: 10px;
+
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 10px;
+  border-width: 1px;
+
+  font-size: 15px;
+}
+
+.vercodeText {
+  width: 150px;
+  height: 30px;
+
+  margin: 10px;
+
+  color: skyblue;
+
+  font-size: 20px;
+  text-align: right;
+  vertical-align: auto;
+}
+
+.regionOption {
+  width: 400px;
+  height: 50px;
+
+  margin: 10px;
+  padding: 0px 10px;
+
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 8px;
+  border-width: 1px;
+
+  font-size: 15px;
+}
+
+.basicRadio {
+  font-size: 17px;
+}
+
+.submitButton {
+  width: 400px;
+  height: 100px;
+
+  margin: 10px;
+  padding: 0px 10px;
+
+  border-style: solid;
+  border-color: skyblue;
+  border-radius: 8px;
+  border-width: 1px;
+
+  background-color: white;
+
+  font-size: 25px;
+  color: skyblue;
+}
